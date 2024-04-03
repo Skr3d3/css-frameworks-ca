@@ -1,0 +1,12 @@
+
+
+.btn {
+     &-primary {
+        background-color: $purple;
+        border: $purple-dark;
+        &:hover{
+        background-color: $purple-dark;
+        border: $purple;
+        }
+     }
+}
