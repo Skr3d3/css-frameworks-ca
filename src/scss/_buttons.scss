@@ -7,4 +7,12 @@
         background-color: $purple-dark;
         }
      }
+     &-special {
+      @extend .btn-secondary;
+
+      border-color: $purple;
+      &:hover {
+      background-color: $primary-bg-subtle-dark;
+      }
+     }
 }

@@ -10,7 +10,6 @@
 
 @import "variables";
 @import "variables-dark";
-@import "buttons";
 
 // Main bootstrap files
 
@@ -20,6 +19,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Extended classes
+
+
+@import "buttons";
 
 .navbar-brand {
     font-family: $navbar-brand-family;
