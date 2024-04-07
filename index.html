@@ -6,6 +6,7 @@
     <link href="dist/css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/images/ninjaverselogo.png">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 
     <title>Athentication</title>
@@ -18,7 +19,7 @@
         <section class="container d-flex vh-100 justify-content-center align-items-center flex-column">        
             <div class="container mb-5 d-flex flex-column align-items-center">
                 <h1 class="col-12 text-center">NinjaVerse</h1>
-                <img src="/images/ninjaverselogo.png" class="img-fluid col-6">
+                <img src="/images/ninjaverselogo.png" alt="Abstract logo of a ninja" class="img-fluid col-6">
             </div>
             <div class="container d-flex flex-column align-items-center">
                 <form id="login" action="/profile/index.html" class="row g-3 col-7">
@@ -30,8 +31,10 @@
                       <label for="inputPassword4" class="form-label">Password</label>
                       <input required minlength="8" type="password" class="form-control" id="inputPassword4">
                     </div>
-                    <div class="col-12 d-flex justify-content-center">
-                      <button form="login" href="/profile/index.html" role="bytton" class="btn btn-primary my-5">Sign in</button>
+                    <div class="col-12 d-flex flex-row-reverse justify-content-around align-items-center">
+                      <button form="login" role="button" class="btn btn-primary my-4">Log in</button>
+                      <button role="button" class="btn btn-secondary my-4">Sign up</button>
+
                     </div>
                 </form>
             </div>
