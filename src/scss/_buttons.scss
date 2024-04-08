@@ -15,4 +15,9 @@
       background-color: $primary-bg-subtle-dark;
       }
      }
+     &-subtle {
+      @extend .btn-secondary;
+
+      background-color: transparent;
+     }
 }
