@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/images/ninjaverselogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Athentication</title>
+</head>
+<body class="bg-dark text-bg-dark">
+    <header>
+        <div class="container my-5"></div>
+    </header>
+    <main>
+        <section class="container d-flex vh-100 justify-content-center align-items-center flex-column">        
+            <div class="container mb-sm-5 mb-3 d-flex flex-column align-items-center">
+                <h1 class="col-12 mb-4 text-center">NinjaVerse</h1>
+                <img src="/images/ninjaverselogo.png" alt="Abstract logo of a ninja" class="img-fluid col-10 col-sm-6">
+            </div>
+            <div class="container d-flex flex-column align-items-center">
+                <form id="login" action="/profile/index.html" class="row g-3 col-7">
+                    <div class="col-12">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input required title="The email you entered is not correct" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input required minlength="8" type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12 text-center d-sm-flex justify-content-around align-items-center">
+                      <button role="button" class="btn btn-special my-4">Sign up</button>
+                      <button form="login" role="button" class="btn btn-primary my-4">Log in</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
